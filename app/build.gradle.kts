@@ -82,6 +82,7 @@ dependencies {
     implementation("androidx.security:security-crypto:1.0.0")
 
     //TODO: Add MediaPipe genai dependencies
+    implementation ("com.google.mediapipe:tasks-genai:0.10.22") // added
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
