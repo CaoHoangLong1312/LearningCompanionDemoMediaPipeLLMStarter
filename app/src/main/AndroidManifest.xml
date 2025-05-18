@@ -27,6 +27,12 @@
         </activity>
 
         <!--TODO: Add MediaPipe genai uses-native-library to initialize the LlmInference -->
+        <!-- Required to initialize the LlmInference -->
+        <uses-native-library
+            android:name="libOpenCL.so"
+            android:required="false"/>
+        <uses-native-library android:name="libOpenCL-car.so" android:required="false"/>
+        <uses-native-library android:name="libOpenCL-pixel.so" android:required="false"/>
     </application>
 
 </manifest>
